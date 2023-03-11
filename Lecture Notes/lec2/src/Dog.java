@@ -60,7 +60,7 @@ public class Dog {
                 continue;
             }
             int compareIndex = i + j;
-            if (validIndex(dogs, compareIndex){
+            if (validIndex(dogs, compareIndex)){
                 if (dogs[compareIndex].weightInPounds >= dogs[i].weightInPounds){
                     isBiggest = false;
                 }
